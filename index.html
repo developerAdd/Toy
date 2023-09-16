@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <meta name="theme-color" content="#111111">
+   <title>Главная</title>
+   <link rel="preload" href="fonts/Rubik-ExtraBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-Black.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-Bold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-Italic.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-Light.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-Medium.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-Regular.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="preload" href="fonts/Rubik-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+   <link rel="stylesheet" href="css/vendor.css">
+   <link rel="stylesheet" href="css/main.css">
+   <script src="https://api-maps.yandex.ru/2.1/?apikey=ваш API-ключ&lang=ru_RU" type="text/javascript"></script>
+   <script defer src="js/main.js"></script>
+</head>
+
+<body class="page__body">
+   <div class="site-container">
+      <header class="header">
+   <div class="container header__content">
+      <div class="header__top">
+         <a href="#" class="header__local">
+            <div class="header__ico--local">
+               <svg class="img-contain">
+                  <use xlink:href="img/sprite.svg#local"></use>
+               </svg>
+            </div>
+            <p class="header__text">Кинешма, ул. Лесозаводская, д. 10</p>
+         </a>
+         <a href="tel:+74954565433" class="header__tel">
+            <div class="header__ico--tel">
+               <svg class="img-contain">
+                  <use xlink:href="img/sprite.svg#tel"></use>
+               </svg>
+            </div>
+            <p class="header__text">+7 495 456-54-33</p>
+         </a>
+         <span class="header__time">(Круглосуточно)</span>
+         <span class="header__social">Мы в соц. сетях:</span>
+         <a href="#" class="header__social--vk">
+            <img src="img/svg/vk.svg" class="img-contain" width="28" height="28" alt="vk">
+         </a>
+      </div>
+      <div class="header__main">
+         <a href="index.html" class="header__logo">
+            <img src="img/svg/logo.svg" class="img-contain" width="235" height="67" alt="нюра и той">
+         </a>
+         <nav class="nav header__nav">
+            <ul class="list-reset nav__list">
+               <li class="nav__item">
+                  <a href="about.html" class="nav__link">О клинике</a>
+               </li>
+               <li class="nav__item __select">
+                  <span class="nav__link">Отделения</span>
+                  <ul class="list-reset __select__list">
+                     <li class="__select__item">
+                        <a href="department.html" class="__select__link">Отделения 1</a>
+                     </li>
+                     <li class="__select__item">
+                        <a href="department.html" class="__select__link">Отделения 2</a>
+                     </li>
+                     <li class="__select__item">
+                        <a href="department.html" class="__select__link">Отделения 3</a>
+                     </li>
+                     <li class="__select__item">
+                        <a href="department.html" class="__select__link">Отделения 4</a>
+                     </li>
+                     <li class="__select__item">
+                        <a href="department.html" class="__select__link">Отделения 5</a>
+                     </li>
+                     <li class="__select__item">
+                        <a href="department.html" class="__select__link">Отделения 6</a>
+                     </li>
+                  </ul>
+               </li>
+               <li class="nav__item">
+                  <a href="specialists.html" class="nav__link">Специалисты</a>
+               </li>
+               <li class="nav__item">
+                  <a href="price.html" class="nav__link">Цены</a>
+               </li>
+               <li class="nav__item">
+                  <a href="news.html" class="nav__link">Статьи</a>
+               </li>
+               <li class="nav__item">
+                  <a href="contact.html" class="nav__link">Контакты</a>
+               </li>
+            </ul>
+         </nav>
+         <button class="btn-reset burger">
+            <div class="burger__line __top"></div>
+            <div class="burger__line __center"></div>
+            <div class="burger__line __center"></div>
+            <div class="burger__line __bottom"></div>
+         </button>
+      </div>
+   </div>
+</header>
+      <main class="main">
+         <section class="hero">
+   <div class="hero__content">
+      <div class="swiper hero__slider">
+         <div class="swiper-wrapper">
+            <div class="swiper-slide hero__slide  mouse-parallax">
+               <div class="hero__decor01 mouse-parallax-item">
+                  <img src="img/svg/decor01.svg" class="img-contain" width="35" height="35" alt="шприц">
+               </div>
+               <div class="hero__decor02 mouse-parallax-item">
+                  <img src="img/svg/decor02.svg" class="img-contain" width="63" height="63" alt="шприц">
+               </div>
+               <div class="hero__decor03 mouse-parallax-item">
+                  <img src="img/svg/decor03.svg" class="img-contain" width="60" height="60" alt="шприц">
+               </div>
+               <div class="hero__decor04 mouse-parallax-item">
+                  <img src="img/svg/decor04.svg" class="img-contain" width="42" height="42" alt="шприц">
+               </div>
+               <div class="hero__img">
+                  <picture>
+                     <source srcset="img/hero01.webp" type="image/webp">
+                     <img loading="lazy" src="img/hero01.jpg" class="img-absolute" width="1400" height="633"
+                        alt="кошка лежит на руке">
+                  </picture>
+               </div>
+               <div class="container hero__info">
+                  <button data-popupId="popupDate" class="btn-reset hero__sale popup__link">Бесплатные дни</button>
+                  <h2 class="hero__title">Каждый вторник -15% на<br>лапароскопическую кастрацию</h2>
+                  <ul class="list-reset hero__list">
+                     <li class="hero__item">— Опытные хирурги-эндоскописты</li>
+                     <li class="hero__item">— Квалифицированные анестезиологи</li>
+                     <li class="hero__item">— Газовый наркоз</li>
+                     <li class="hero__item">— Послеоперационный стационар</li>
+                  </ul>
+                  <button class="btn-reset btn hero__btn">
+                     <span class="btn__text __paw">Записаться</span>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide hero__slide  mouse-parallax">
+               <div class="hero__decor01 mouse-parallax-item">
+                  <img src="img/svg/decor01.svg" class="img-contain" width="35" height="35" alt="шприц">
+               </div>
+               <div class="hero__decor02 mouse-parallax-item">
+                  <img src="img/svg/decor02.svg" class="img-contain" width="63" height="63" alt="шприц">
+               </div>
+               <div class="hero__decor03 mouse-parallax-item">
+                  <img src="img/svg/decor03.svg" class="img-contain" width="60" height="60" alt="шприц">
+               </div>
+               <div class="hero__decor04 mouse-parallax-item">
+                  <img src="img/svg/decor04.svg" class="img-contain" width="42" height="42" alt="шприц">
+               </div>
+               <div class="hero__img">
+                  <picture>
+                     <source srcset="img/hero01.webp" type="image/webp">
+                     <img loading="lazy" src="img/hero01.jpg" class="img-absolute" width="1400" height="633"
+                        alt="кошка лежит на руке">
+                  </picture>
+               </div>
+               <div class="container hero__info">
+                  <button data-popupId="popupDate" class="btn-reset hero__sale popup__link">Бесплатные дни</button>
+                  <h2 class="hero__title">Каждый вторник -15% на<br>лапароскопическую кастрацию</h2>
+                  <ul class="list-reset hero__list">
+                     <li class="hero__item">— Опытные хирурги-эндоскописты</li>
+                     <li class="hero__item">— Квалифицированные анестезиологи</li>
+                     <li class="hero__item">— Газовый наркоз</li>
+                     <li class="hero__item">— Послеоперационный стационар</li>
+                  </ul>
+                  <button class="btn-reset btn hero__btn">
+                     <span class="btn__text __paw">Записаться</span>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide hero__slide  mouse-parallax">
+               <div class="hero__decor01 mouse-parallax-item">
+                  <img src="img/svg/decor01.svg" class="img-contain" width="35" height="35" alt="шприц">
+               </div>
+               <div class="hero__decor02 mouse-parallax-item">
+                  <img src="img/svg/decor02.svg" class="img-contain" width="63" height="63" alt="шприц">
+               </div>
+               <div class="hero__decor03 mouse-parallax-item">
+                  <img src="img/svg/decor03.svg" class="img-contain" width="60" height="60" alt="шприц">
+               </div>
+               <div class="hero__decor04 mouse-parallax-item">
+                  <img src="img/svg/decor04.svg" class="img-contain" width="42" height="42" alt="шприц">
+               </div>
+               <div class="hero__img">
+                  <picture>
+                     <source srcset="img/hero01.webp" type="image/webp">
+                     <img loading="lazy" src="img/hero01.jpg" class="img-absolute" width="1400" height="633"
+                        alt="кошка лежит на руке">
+                  </picture>
+               </div>
+               <div class="container hero__info">
+                  <button data-popupId="popupDate" class="btn-reset hero__sale popup__link">Бесплатные дни</button>
+                  <h2 class="hero__title">Каждый вторник -15% на<br>лапароскопическую кастрацию</h2>
+                  <ul class="list-reset hero__list">
+                     <li class="hero__item">— Опытные хирурги-эндоскописты</li>
+                     <li class="hero__item">— Квалифицированные анестезиологи</li>
+                     <li class="hero__item">— Газовый наркоз</li>
+                     <li class="hero__item">— Послеоперационный стационар</li>
+                  </ul>
+                  <button class="btn-reset btn hero__btn">
+                     <span class="btn__text __paw">Записаться</span>
+                  </button>
+               </div>
+            </div>
+            <div class="swiper-slide hero__slide  mouse-parallax">
+               <div class="hero__decor01 mouse-parallax-item">
+                  <img src="img/svg/decor01.svg" class="img-contain" width="35" height="35" alt="шприц">
+               </div>
+               <div class="hero__decor02 mouse-parallax-item">
+                  <img src="img/svg/decor02.svg" class="img-contain" width="63" height="63" alt="шприц">
+               </div>
+               <div class="hero__decor03 mouse-parallax-item">
+                  <img src="img/svg/decor03.svg" class="img-contain" width="60" height="60" alt="шприц">
+               </div>
+               <div class="hero__decor04 mouse-parallax-item">
+                  <img src="img/svg/decor04.svg" class="img-contain" width="42" height="42" alt="шприц">
+               </div>
+               <div class="hero__img">
+                  <picture>
+                     <source srcset="img/hero01.webp" type="image/webp">
+                     <img loading="lazy" src="img/hero01.jpg" class="img-absolute" width="1400" height="633"
+                        alt="кошка лежит на руке">
+                  </picture>
+               </div>
+               <div class="container hero__info">
+                  <button data-popupId="popupDate" class="btn-reset hero__sale popup__link">Бесплатные дни</button>
+                  <h2 class="hero__title">Каждый вторник -15% на<br>лапароскопическую кастрацию</h2>
+                  <ul class="list-reset hero__list">
+                     <li class="hero__item">— Опытные хирурги-эндоскописты</li>
+                     <li class="hero__item">— Квалифицированные анестезиологи</li>
+                     <li class="hero__item">— Газовый наркоз</li>
+                     <li class="hero__item">— Послеоперационный стационар</li>
+                  </ul>
+                  <button class="btn-reset btn hero__btn">
+                     <span class="btn__text __paw">Записаться</span>
+                  </button>
+               </div>
+            </div>
+         </div>
+         <div class="hero__navigation">
+            <button class="btn-reset hero__arrow __prev">
+               <svg class="hero__arrow--ico">
+                  <use xlink:href="img/sprite.svg#sliderArrow"></use>
+               </svg>
+            </button>
+            <div class="hero__pagination"></div>
+            <button class="btn-reset hero__arrow __next">
+               <svg class="hero__arrow--ico">
+                  <use xlink:href="img/sprite.svg#sliderArrow"></use>
+               </svg>
+            </button>
+         </div>
+      </div>
+   </div>
+</section>
+         <section class="cards">
+   <div class="container cards__content">
+      <ul class="list-reset cards__items">
+         <li class="cards__item">
+            <div class="cards__img">
+               <svg class="img-contain">
+                  <use xlink:href="img/sprite.svg#alltime"></use>
+               </svg>
+            </div>
+            <h3 class="cards__text">Работаем круглосуточно и без выходных</h3>
+         </li>
+         <li class="cards__item">
+            <div class="cards__img">
+               <svg class="img-contain">
+                  <use xlink:href="img/sprite.svg#tarif"></use>
+               </svg>
+            </div>
+            <h3 class="cards__text">У нас нет ночного тарифа</h3>
+         </li>
+         <li class="cards__item">
+            <div class="cards__img">
+               <svg class="img-contain">
+                  <use xlink:href="img/sprite.svg#pay"></use>
+               </svg>
+            </div>
+            <h3 class="cards__text">Оплата банковской картой и наличными</h3>
+         </li>
+         <li class="cards__item">
+            <div class="cards__img">
+               <picture>
+                  <source srcset="img/yandex.webp" type="image/webp">
+                  <img src="img/yandex.png" class="img-contain" width="216" height="101" alt="yandex">
+               </picture>
+            </div>
+         </li>
+      </ul>
+   </div>
+</section>
+         <section class="about">
+   <div class="container about__content">
+      <div class="about__slider--container">
+         <div class="swiper about__slider">
+            <div class="swiper-wrapper">
+               <div class="swiper-slide about__slide">
+                  <div class="about__img">
+                     <picture>
+                        <source srcset="img/about01.webp" type="image/webp">
+                        <img src="img/about01.jpg" class="img-absolute" width="410" height="410" alt="кролик">
+                     </picture>
+                  </div>
+                  <div class="about__info">
+                     <h3 class="about__title">Здоровье начинается с доверия!</h3>
+                     <p class="about__description">И мы сделаем всё, чтобы вам и вашему питомцу было комфортно и
+                        спокойно в
+                        нашей клинике. А главное был достигнут результат.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide about__slide">
+                  <div class="about__img">
+                     <picture>
+                        <source srcset="img/about02.webp" type="image/webp">
+                        <img src="img/about02.jpg" class="img-absolute" width="410" height="410" alt="котик">
+                     </picture>
+                  </div>
+                  <div class="about__info">
+                     <h3 class="about__title">Здоровье начинается с доверия!</h3>
+                     <p class="about__description">И мы сделаем всё, чтобы вам и вашему питомцу было комфортно и
+                        спокойно в
+                        нашей клинике. А главное был достигнут результат.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide about__slide">
+                  <div class="about__img">
+                     <picture>
+                        <source srcset="img/about03.webp" type="image/webp">
+                        <img src="img/about03.jpg" class="img-absolute" width="410" height="410" alt="котик">
+                     </picture>
+                  </div>
+                  <div class="about__info">
+                     <h3 class="about__title">Здоровье начинается с доверия!</h3>
+                     <p class="about__description">И мы сделаем всё, чтобы вам и вашему питомцу было комфортно и
+                        спокойно в
+                        нашей клинике. А главное был достигнут результат.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide about__slide">
+                  <div class="about__img">
+                     <picture>
+                        <source srcset="img/about04.webp" type="image/webp">
+                        <img src="img/about04.jpg" class="img-absolute" width="410" height="410" alt="лемур">
+                     </picture>
+                  </div>
+                  <div class="about__info">
+                     <h3 class="about__title">Здоровье начинается с доверия!</h3>
+                     <p class="about__description">И мы сделаем всё, чтобы вам и вашему питомцу было комфортно и
+                        спокойно в
+                        нашей клинике. А главное был достигнут результат.</p>
+                  </div>
+               </div>
+               <div class="swiper-slide about__slide">
+                  <div class="about__img">
+                     <picture>
+                        <source srcset="img/about05.webp" type="image/webp">
+                        <img src="img/about05.jpg" class="img-absolute" width="410" height="410" alt="собака">
+                     </picture>
+                  </div>
+                  <div class="about__info">
+                     <h3 class="about__title">Здоровье начинается с доверия!</h3>
+                     <p class="about__description">И мы сделаем всё, чтобы вам и вашему питомцу было комфортно и
+                        спокойно в
+                        нашей клинике. А главное был достигнут результат.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="about__texts">
+         <p class="about__text __left">Ветеринарная клиника Нюра и Той — место, где Вы получите высокопрофессиональную
+            ветеринарную помощь, а так же исчерпывающие консультации по вопросам ухода, содержания, кормления и
+            профилактике болезней у животных. В центре имеется все необходимое современное оборудование для качественной
+            диагностики, точной постановки диагноза и своевременного лечения Вашего питомца.</p>
+         <p class="about__text __right">Каждый специалист центра- профессионал своего дела с глубокими знаниями и
+            обширным опытом. Постоянно повышая свой профессиональный уровень, наши врачи являются участниками и
+            лекторами ведущих отечественных и международных ветеринарных конгрессов, конференций, мастер-классов.</p>
+      </div>
+   </div>
+</section>
+         <section class="articles">
+   <div class="container articles__content">
+      <span class="articles__description">Полезная информация</span>
+      <div class="articles__header">
+         <h2 class="articles__title">Статьи</h2>
+         <a href="#" class="articles__link">Все статьи</a>
+      </div>
+      <ul class="list-reset articles__list">
+         <li class="articles__item">
+            <div class="articles__img">
+               <picture>
+                  <source srcset="img/article01.webp" type="image/webp">
+                  <img loading="lazy" src="img/article01.jpg" class="img-absolute" width="358" height="213"
+                     alt="article">
+               </picture>
+            </div>
+            <span class="articles__name">Так ли безопасен газовый наркоз?</span>
+            <p class="articles__text">Многие владельцы домашних животных задают нам вопрос: «А газовый ли у вас наркоз?»
+            </p>
+            <a href="new01.html" class="btn articles__btn">Подробнее</a>
+         </li>
+         <li class="articles__item">
+            <div class="articles__img">
+               <picture>
+                  <source srcset="img/article02.webp" type="image/webp">
+                  <img loading="lazy" src="img/article02.jpg" class="img-absolute" width="358" height="213"
+                     alt="article">
+               </picture>
+            </div>
+            <span class="articles__name">Так ли безопасен газовый наркоз?</span>
+            <p class="articles__text">Многие владельцы домашних животных задают нам вопрос: «А газовый ли у вас наркоз?»
+            </p>
+            <a href="new02.html" class="btn articles__btn">Подробнее</a>
+         </li>
+         <li class="articles__item">
+            <div class="articles__img">
+               <picture>
+                  <source srcset="img/article03.webp" type="image/webp">
+                  <img loading="lazy" src="img/article03.jpg" class="img-absolute" width="358" height="213"
+                     alt="article">
+               </picture>
+            </div>
+            <span class="articles__name">Так ли безопасен газовый наркоз?</span>
+            <p class="articles__text">Многие владельцы домашних животных задают нам вопрос: «А газовый ли у вас наркоз?»
+            </p>
+            <a href="new03.html" class="btn articles__btn">Подробнее</a>
+         </li>
+      </ul>
+   </div>
+</section>
+         <section class="map">
+   <h3 class="is-hidden">Здесь можно указать адрес клиники</h3>
+   <div id="map" class="map__content">
+   </div>
+</section>
+      </main>
+      <footer class="footer">
+   <div class="footer__decor">
+      <picture>
+         <source srcset="img/catFooter.webp" type="image/webp">
+         <img loading="lazy" src="img/catFooter.png" class="footer__img" width="264" height="158"
+            alt="кот прячется за луной">
+      </picture>
+   </div>
+   <div class="container footer__content">
+      <div class="footer__main">
+         <a href="index.html" class="footer__logo">
+            <img loading="lazy" src="img/svg/logoWhite.svg" class="img-contain" width="235" height="67"
+               alt="нюра и той">
+         </a>
+         <nav class="nav footer__nav">
+            <ul class="list-reset nav__list">
+               <li class="nav__item">
+                  <a href="about.html" class="nav__link">О клинике</a>
+               </li>
+               <li class="nav__item">
+                  <a href="department.html" class="nav__link">Отделения</a>
+               </li>
+               <li class="nav__item">
+                  <a href="specialists.html" class="nav__link">Специалисты</a>
+               </li>
+               <li class="nav__item">
+                  <a href="price.html" class="nav__link">Цены</a>
+               </li>
+               <li class="nav__item">
+                  <a href="news.html" class="nav__link">Статьи</a>
+               </li>
+               <li class="nav__item">
+                  <a href="contact.html" class="nav__link">Контакты</a>
+               </li>
+            </ul>
+         </nav>
+      </div>
+      <div class="footer__bottom">
+         <a href="#" class="footer__local">
+            <div class="header__ico--local">
+               <svg class="img-contain">
+                  <use xlink:href="img/sprite.svg#local"></use>
+               </svg>
+            </div>
+            <p class="footer__text">Кинешма, ул. Лесозаводская, д. 10</p>
+         </a>
+         <div class="footer__tel">
+            <a href="tel:+74954565433" class="footer__tel--link">
+               <div class="header__ico--tel">
+                  <svg class="img-contain">
+                     <use xlink:href="img/sprite.svg#tel"></use>
+                  </svg>
+               </div>
+               <p class="footer__text">+7 495 456-54-33</p>
+            </a>
+            <span class="footer__time">(Круглосуточно)</span>
+         </div>
+         <div class="footer__socials">
+            <span class="footer__social">Мы в соц. сетях:</span>
+            <a href="#" class="header__social--vk">
+               <img src="img/svg/vk.svg" class="img-contain" width="28" height="28" alt="vk">
+            </a>
+         </div>
+         <a href="#" class="footer__soma">
+            <img src="img/svg/soma.svg" class="img-contain" width="138" height="43" alt="soma made by SOMA DESIGN">
+         </a>
+      </div>
+   </div>
+</footer>
+      <div id="popupDate" class="popup">
+   <div class="popup__body">
+      <div class="popup__content">
+         <button class="btn-reset close__popup"></button>
+         <div class="popup__img">
+            <picture>
+               <source srcset="img/popup.webp" type="image/webp">
+               <img loading="lazy" src="img/popup.jpg" class="img-contain" width="688" height="659"
+                  alt="бесплатное обслуживание по назначению врача">
+            </picture>
+         </div>
+      </div>
+   </div>
+</div>
+   </div>
+</body>
+
+</html>
